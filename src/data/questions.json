@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "群聊突然安静了，你最像哪种人？",
+    "options": [
+      { "text": "发一句把群再炸醒", "tag": "showoff" },
+      { "text": "丢个烂梗试试看", "tag": "joker" },
+      { "text": "继续潜水，当没来过", "tag": "audience" },
+      { "text": "先翻聊天记录找原因", "tag": "analyst" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "评论区一吵起来，你通常会？",
+    "options": [
+      { "text": "写一段把逻辑摆清楚", "tag": "analyst" },
+      { "text": "先截图，等会继续看", "tag": "melon" },
+      { "text": "字打完了又全部删掉", "tag": "social" },
+      { "text": "看完就划走，当路过", "tag": "passerby" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "被人突然 @ 到时，你第一反应是？",
+    "options": [
+      { "text": "秒回一句“我在”", "tag": "honest" },
+      { "text": "先看是不是要我收尾", "tag": "tool" },
+      { "text": "开始想我是不是说错话了", "tag": "overthink" },
+      { "text": "先装死几分钟再说", "tag": "slacker" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "短视频一刷就停不下来时，你更常见的是？",
+    "options": [
+      { "text": "想到什么就想自己也发一条", "tag": "spark" },
+      { "text": "看到熟梗就顺手跟一句", "tag": "echo" },
+      { "text": "开着视频，魂已经飘去别处", "tag": "floater" },
+      { "text": "越刷越睡不着，还一直想", "tag": "overthink" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "热搜爆了，你的手会先点进哪里？",
+    "options": [
+      { "text": "先看最热评论区", "tag": "melon" },
+      { "text": "先去当事人主页翻一圈", "tag": "passerby" },
+      { "text": "先把时间线捋明白", "tag": "analyst" },
+      { "text": "先想一句能把楼点醒的话", "tag": "awaken" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "群里有人突然来一句“谁懂啊”，你会？",
+    "options": [
+      { "text": "认真接一句，不让话掉地上", "tag": "honest" },
+      { "text": "把这句换个版本再发一遍", "tag": "echo" },
+      { "text": "立刻接一个更离谱的梗", "tag": "joker" },
+      { "text": "默默看别人接龙，不抢话", "tag": "audience" }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "临时有个活砸下来，你在群里一般是？",
+    "options": [
+      { "text": "已经开文档开始做了", "tag": "grinder" },
+      { "text": "顺手把别人漏的也补上", "tag": "tool" },
+      { "text": "先拖一会，晚点再碰", "tag": "slacker" },
+      { "text": "页面开着，人先去走神", "tag": "floater" }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "你发完一条动态后，最像下面哪种状态？",
+    "options": [
+      { "text": "反复刷新谁给我点赞", "tag": "showoff" },
+      { "text": "开始复盘会不会被误会", "tag": "overthink" },
+      { "text": "顺手安排下一条发什么", "tag": "grinder" },
+      { "text": "发完就跑，像没发过", "tag": "passerby" }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "新群刚把你拉进去时，你通常？",
+    "options": [
+      { "text": "先发个表情包混个脸熟", "tag": "joker" },
+      { "text": "看一圈成员名，然后继续闭麦", "tag": "social" },
+      { "text": "想到个话题就直接开麦", "tag": "spark" },
+      { "text": "有人问流程就顺手答一下", "tag": "tool" }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "刷到一个明显离谱的说法时，你更可能？",
+    "options": [
+      { "text": "直接指出来，不想绕弯", "tag": "honest" },
+      { "text": "先整理证据，再开讲", "tag": "analyst" },
+      { "text": "想说点什么，最后还是算了", "tag": "social" },
+      { "text": "用一句短话把楼里点醒", "tag": "awaken" }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "半夜突然想发点东西，你更像？",
+    "options": [
+      { "text": "想到就发，明天再说", "tag": "spark" },
+      { "text": "写了又删，删了又写", "tag": "overthink" },
+      { "text": "把今天的梗再盘一遍", "tag": "echo" },
+      { "text": "顺手把明天要发的也做了", "tag": "grinder" }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "如果要用一句话形容你的上网状态，更像？",
+    "options": [
+      { "text": "高存在感，总能被看见", "tag": "showoff" },
+      { "text": "大事全围观，但尽量不下场", "tag": "melon" },
+      { "text": "人在现场，但像没买发言票", "tag": "audience" },
+      { "text": "关键时刻会来一句点题", "tag": "awaken" }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "showoff",
+    "name": "显眼包",
+    "shortDesc": "不想出头，但每次都你",
+    "blendHint": "",
+    "longDesc": [
+      "事故体质这回事，\n在你身上总带点直播感。",
+      "刚说完“我不参与”，\n下一秒所有人都在等你表态。",
+      "群里有空位的时候你很安静。\n一旦有戏，主角位总会自己滑到你脚边。",
+      "所以你最常经历的不是出风头，\n是风头自己长腿来找你。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "joker",
+    "name": "乐子人",
+    "shortDesc": "不上场，但笑最大",
+    "blendHint": "",
+    "longDesc": [
+      "别人吵得很认真，\n你先看这事有没有笑点。",
+      "梗不一定是你原创。\n气氛大概率是你续上的。",
+      "最坏的场面到你这，\n也能先被处理成一个段子。",
+      "你不是来收拾烂摊子的。\n你是先把大家从僵里捞出来。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "overthink",
+    "name": "内耗怪",
+    "shortDesc": "事情过了，人还没过",
+    "blendHint": "",
+    "longDesc": [
+      "表面上事情已经过去。\n后台还在继续加载。",
+      "一句普通的话，\n够你在路上、洗澡、睡前各回放一遍。",
+      "你不是记仇。\n你只是很难让细节自动消音。",
+      "别人关通知。\n你关不掉脑内弹窗。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "slacker",
+    "name": "摆烂王",
+    "shortDesc": "不是不行，是不想动",
+    "blendHint": "",
+    "longDesc": [
+      "看起来像拖延。\n其实更像给自己留一条活路。",
+      "任务你不是没看见。\n你是先把命保住，再谈效率。",
+      "该来的总会来。\n所以你习惯先瘫一下，等心跳平了再动。",
+      "最神奇的是，\n真到最后你又常常能交出来。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "tool",
+    "name": "工具人",
+    "shortDesc": "不重要，但不能没有",
+    "blendHint": "",
+    "longDesc": [
+      "没人点名。\n你还是会把那句“我来吧”发出去。",
+      "收尾、补位、兜底，\n这些词像是自动绑定了你。",
+      "最会消失的人不一定有你。\n最难缺的那个，大概率是你。",
+      "你总说只是顺手。\n问题是很多事没你顺手，就真没人管了。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "social",
+    "name": "社恐人",
+    "shortDesc": "能不说话，就不说话",
+    "blendHint": "",
+    "longDesc": [
+      "发送键就在那。\n你偏偏能和它对视半分钟。",
+      "不是没想法。\n是每次出声都像要先过三道安检。",
+      "群里越热闹，\n你越容易退回输入框后面。",
+      "别人看到的是安静。\n只有你知道那条消息其实活过一次。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "melon",
+    "name": "吃瓜人",
+    "shortDesc": "不发言，但全看了",
+    "blendHint": "",
+    "longDesc": [
+      "热搜不是新闻。\n是你今天的连续剧。",
+      "嘴上说“我就看看”。\n翻到第五屏的时候还挺专注。",
+      "主线、支线、番外料，\n你未必参与，但几乎都听全了。",
+      "真正的天赋不是八卦。\n是总能在最乱的时候看懂谁和谁是一伙。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "grinder",
+    "name": "卷王",
+    "shortDesc": "你可以不卷，但他不行",
+    "blendHint": "",
+    "longDesc": [
+      "别人说差不多。\n你已经开始想还能不能再往上提一格。",
+      "你很少高调表态。\n但文件、进度、结果都比别人先一步。",
+      "卷不卷先不说。\n反正你一认真，旁边的人就开始心虚。",
+      "最可怕的是你常常真心觉得，\n自己也只是普通努力了一下。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "floater",
+    "name": "摸鱼人",
+    "shortDesc": "在线，但没上线",
+    "blendHint": "",
+    "longDesc": [
+      "在线状态是亮的。\n灵魂状态未响应。",
+      "你当然在现场。\n只是注意力经常有自己的航线。",
+      "窗口切不切走不重要。\n真正离开的是脑子。",
+      "有些人摸鱼靠技巧。\n你靠的是一种很自然的消失。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "honest",
+    "name": "老实人",
+    "shortDesc": "你当真了，别人没当",
+    "blendHint": "",
+    "longDesc": [
+      "场面越复杂，\n你越像那个把话说直的人。",
+      "别人还在试探。\n你已经把该回的回了，不漂亮，但管用。",
+      "锅为什么老往你这掉？\n因为大家默认你接得住。",
+      "老实不是吃亏。\n只是太多人已经不习惯这种直接。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "passerby",
+    "name": "纯路人",
+    "shortDesc": "只是路过，不想参与",
+    "blendHint": "",
+    "longDesc": [
+      "你总把自己摆在画面外。\n偏偏什么关键节点都没错过。",
+      "不下场，不抢麦。\n谁先破防、谁先删评，你都看在眼里。",
+      "这种路人感很微妙。\n像没参与，又像一直都在。",
+      "所以每次你说“我不清楚”，\n听起来都不像真话。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "analyst",
+    "name": "分析机",
+    "shortDesc": "不参与，但全看懂了",
+    "blendHint": "",
+    "longDesc": [
+      "情绪一上来，\n你反而会自动后退半步。",
+      "不是冷血。\n是脑子已经开始分段、标重点、找因果。",
+      "一群人围着结论打转的时候，\n你还在问“最前面那一步是不是就歪了”。",
+      "你很难彻底糊涂。\n清醒本身就是你的职业病。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "echo",
+    "name": "复读机",
+    "shortDesc": "不是原创，但传得最快",
+    "blendHint": "",
+    "longDesc": [
+      "有些话别人说完就散了。\n到你这还能再活一轮。",
+      "你擅长的不是原创爆点。\n是把大家都懂的东西接得更顺。",
+      "气氛快断的时候，\n你一句熟梗就能把现场重新接回去。",
+      "所以别小看复读。\n真正能复到点上的人不多。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "spark",
+    "name": "突创型",
+    "shortDesc": "不按套路，但偏偏有用",
+    "blendHint": "",
+    "longDesc": [
+      "你没有预告习惯。\n灵感来了就直接落地。",
+      "别人还在铺垫。\n你已经把新东西扔进群里了。",
+      "像灵光，也像突袭。\n反正平静在你这通常维持不久。",
+      "最像你的不是创意本身。\n是那种“现在就发”的冲动。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "awaken",
+    "name": "点醒人",
+    "shortDesc": "话不多，但一刀到位",
+    "blendHint": "",
+    "longDesc": [
+      "别人把话说长。\n你负责把重点掰出来。",
+      "这不一定讨喜。\n但往往很有效。",
+      "有些场面不是缺观点。\n是缺一句够直、够准、够短的话。",
+      "而你最常干的，\n就是把空气里那句没人敢说的真话说出来。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  },
+  {
+    "id": "audience",
+    "name": "观众席",
+    "shortDesc": "连评论都懒得点开",
+    "blendHint": "",
+    "longDesc": [
+      "你的位置通常在边上。\n不是退缩，是舒服。",
+      "安静不代表空白。\n很多细节恰恰是安静的人先看见。",
+      "别人忙着表达。\n你更习惯把全场先收进来。",
+      "所以你像观众。\n可真正把整场看明白的，也常常是观众。"
+    ],
+    "image": "/assets/placeholder-character.png"
+  }
+]
