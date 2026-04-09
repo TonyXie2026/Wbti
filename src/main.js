@@ -13,12 +13,14 @@ const state = {
   loading: true,
   error: "",
   screen: "landing",
+  originalQuestions: [],
   questions: [],
   tags: [],
   answers: [],
   currentQuestionIndex: 0,
   result: null,
   savedResult: null,
+  hasActiveQuiz: false,
   topTags: []
 };
 
@@ -63,11 +65,33 @@ function syncSavedResult() {
   state.savedResult = formatSavedResult(readSavedResult(), state.tags);
 }
 
+function shuffleQuestions(questions) {
+  const shuffled = questions.slice();
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+
+  return shuffled;
+}
+
 function resetQuiz() {
+  state.questions = [];
+  state.answers = createEmptyAnswers(state.originalQuestions.length);
+  state.currentQuestionIndex = 0;
+  state.result = null;
+  state.topTags = [];
+  state.hasActiveQuiz = false;
+}
+
+function initializeQuizSession() {
+  state.questions = shuffleQuestions(state.originalQuestions);
   state.answers = createEmptyAnswers(state.questions.length);
   state.currentQuestionIndex = 0;
   state.result = null;
   state.topTags = [];
+  state.hasActiveQuiz = true;
 }
 
 function bindImageFallbacks() {
@@ -99,6 +123,10 @@ function render() {
 function startQuiz() {
   if (state.result) {
     resetQuiz();
+  }
+
+  if (!state.hasActiveQuiz) {
+    initializeQuizSession();
   }
 
   state.screen = "quiz";
@@ -207,7 +235,8 @@ async function init() {
     ]);
 
     state.tags = tags;
-    state.questions = questions;
+    state.originalQuestions = questions;
+    state.questions = questions.slice();
     state.answers = createEmptyAnswers(questions.length);
     state.loading = false;
     syncSavedResult();
