@@ -15,8 +15,7 @@ function buildSummary(primary, secondary) {
 function buildResultProfile(primary, secondary) {
   return {
     summary: buildSummary(primary, secondary),
-    longDescription: Array.isArray(primary.longDesc) ? primary.longDesc : [],
-    shareText: `我在 WBTI 测出来是：${primary.name}\n你在网上是什么东西？`
+    longDescription: Array.isArray(primary.longDesc) ? primary.longDesc : []
   };
 }
 

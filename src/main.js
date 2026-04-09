@@ -19,7 +19,6 @@ const state = {
   currentQuestionIndex: 0,
   result: null,
   savedResult: null,
-  copyButtonText: "一键复制结果",
   topTags: []
 };
 
@@ -69,7 +68,6 @@ function resetQuiz() {
   state.currentQuestionIndex = 0;
   state.result = null;
   state.topTags = [];
-  state.copyButtonText = "一键复制结果";
 }
 
 function bindImageFallbacks() {
@@ -104,13 +102,11 @@ function startQuiz() {
   }
 
   state.screen = "quiz";
-  state.copyButtonText = "一键复制结果";
   render();
 }
 
 function showLanding() {
   state.screen = "landing";
-  state.copyButtonText = "一键复制结果";
   render();
 }
 
@@ -125,7 +121,6 @@ function showSavedResult() {
     { tag: state.savedResult.secondary, score: state.savedResult.secondaryScore }
   ];
   state.screen = "result";
-  state.copyButtonText = "一键复制结果";
   render();
 }
 
@@ -139,7 +134,6 @@ function finishQuiz() {
   };
   state.topTags = summarizeTopTags(result);
   state.screen = "result";
-  state.copyButtonText = "一键复制结果";
 
   writeSavedResult(state.result);
   syncSavedResult();
@@ -167,36 +161,8 @@ function previousQuestion() {
   render();
 }
 
-async function copyResult() {
-  if (!state.result) {
-    return;
-  }
-
-  try {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(state.result.shareText);
-    } else {
-      const textarea = document.createElement("textarea");
-      textarea.value = state.result.shareText;
-      textarea.setAttribute("readonly", "");
-      textarea.style.position = "absolute";
-      textarea.style.left = "-9999px";
-      document.body.append(textarea);
-      textarea.select();
-      document.execCommand("copy");
-      textarea.remove();
-    }
-
-    state.copyButtonText = "已复制，直接发群就行";
-  } catch {
-    state.copyButtonText = "复制失败，请手动复制";
-  }
-
-  render();
-}
-
 function attachEvents() {
-  app.addEventListener("click", async (event) => {
+  app.addEventListener("click", (event) => {
     const target = event.target.closest("[data-action]");
 
     if (!target) {
@@ -223,9 +189,6 @@ function attachEvents() {
       case "retake-quiz":
         resetQuiz();
         startQuiz();
-        break;
-      case "copy-result":
-        await copyResult();
         break;
       case "go-home":
         showLanding();

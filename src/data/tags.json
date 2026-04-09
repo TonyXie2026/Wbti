@@ -10,7 +10,7 @@
       "群里有空位的时候你很安静。\n一旦有戏，主角位总会自己滑到你脚边。",
       "所以你最常经历的不是出风头，\n是风头自己长腿来找你。"
     ],
-    "image": "/assets/characters/showoff.png"
+    "image": "/assets/characters/showoff.webp"
   },
   {
     "id": "joker",
@@ -23,7 +23,7 @@
       "最坏的场面到你这，\n也能先被处理成一个段子。",
       "你不是来收拾烂摊子的。\n你是先把大家从僵里捞出来。"
     ],
-    "image": "/assets/characters/joker.png"
+    "image": "/assets/characters/joker.webp"
   },
   {
     "id": "overthink",
@@ -36,7 +36,7 @@
       "你不是记仇。\n你只是很难让细节自动消音。",
       "别人关通知。\n你关不掉脑内弹窗。"
     ],
-    "image": "/assets/characters/overthink.png"
+    "image": "/assets/characters/overthink.webp"
   },
   {
     "id": "slacker",
@@ -49,7 +49,7 @@
       "该来的总会来。\n所以你习惯先瘫一下，等心跳平了再动。",
       "最神奇的是，\n真到最后你又常常能交出来。"
     ],
-    "image": "/assets/characters/slacker.png"
+    "image": "/assets/characters/slacker.webp"
   },
   {
     "id": "tool",
@@ -62,7 +62,7 @@
       "最会消失的人不一定有你。\n最难缺的那个，大概率是你。",
       "你总说只是顺手。\n问题是很多事没你顺手，就真没人管了。"
     ],
-    "image": "/assets/characters/tool.png"
+    "image": "/assets/characters/tool.webp"
   },
   {
     "id": "social",
@@ -75,7 +75,7 @@
       "群里越热闹，\n你越容易退回输入框后面。",
       "别人看到的是安静。\n只有你知道那条消息其实活过一次。"
     ],
-    "image": "/assets/characters/social.png"
+    "image": "/assets/characters/social.webp"
   },
   {
     "id": "melon",
@@ -88,7 +88,7 @@
       "主线、支线、番外料，\n你未必参与，但几乎都听全了。",
       "真正的天赋不是八卦。\n是总能在最乱的时候看懂谁和谁是一伙。"
     ],
-    "image": "/assets/characters/melon.png"
+    "image": "/assets/characters/melon.webp"
   },
   {
     "id": "grinder",
@@ -101,7 +101,7 @@
       "卷不卷先不说。\n反正你一认真，旁边的人就开始心虚。",
       "最可怕的是你常常真心觉得，\n自己也只是普通努力了一下。"
     ],
-    "image": "/assets/characters/grinder.png"
+    "image": "/assets/characters/grinder.webp"
   },
   {
     "id": "floater",
@@ -114,7 +114,7 @@
       "窗口切不切走不重要。\n真正离开的是脑子。",
       "有些人摸鱼靠技巧。\n你靠的是一种很自然的消失。"
     ],
-    "image": "/assets/characters/floater.png"
+    "image": "/assets/characters/floater.webp"
   },
   {
     "id": "honest",
@@ -127,7 +127,7 @@
       "锅为什么老往你这掉？\n因为大家默认你接得住。",
       "老实不是吃亏。\n只是太多人已经不习惯这种直接。"
     ],
-    "image": "/assets/characters/honest.png"
+    "image": "/assets/characters/honest.webp"
   },
   {
     "id": "passerby",
@@ -140,7 +140,7 @@
       "这种路人感很微妙。\n像没参与，又像一直都在。",
       "所以每次你说“我不清楚”，\n听起来都不像真话。"
     ],
-    "image": "/assets/characters/passerby.png"
+    "image": "/assets/characters/passerby.webp"
   },
   {
     "id": "analyst",
@@ -153,7 +153,7 @@
       "一群人围着结论打转的时候，\n你还在问“最前面那一步是不是就歪了”。",
       "你很难彻底糊涂。\n清醒本身就是你的职业病。"
     ],
-    "image": "/assets/characters/analyst.png"
+    "image": "/assets/characters/analyst.webp"
   },
   {
     "id": "echo",
@@ -166,7 +166,7 @@
       "气氛快断的时候，\n你一句熟梗就能把现场重新接回去。",
       "所以别小看复读。\n真正能复到点上的人不多。"
     ],
-    "image": "/assets/characters/echo.png"
+    "image": "/assets/characters/echo.webp"
   },
   {
     "id": "spark",
@@ -179,7 +179,7 @@
       "像灵光，也像突袭。\n反正平静在你这通常维持不久。",
       "最像你的不是创意本身。\n是那种“现在就发”的冲动。"
     ],
-    "image": "/assets/characters/spark.png"
+    "image": "/assets/characters/spark.webp"
   },
   {
     "id": "awaken",
@@ -192,7 +192,7 @@
       "有些场面不是缺观点。\n是缺一句够直、够准、够短的话。",
       "而你最常干的，\n就是把空气里那句没人敢说的真话说出来。"
     ],
-    "image": "/assets/characters/awaken.png"
+    "image": "/assets/characters/awaken.webp"
   },
   {
     "id": "audience",
@@ -205,6 +205,6 @@
       "别人忙着表达。\n你更习惯把全场先收进来。",
       "所以你像观众。\n可真正把整场看明白的，也常常是观众。"
     ],
-    "image": "/assets/characters/audience.png"
+    "image": "/assets/characters/audience.webp"
   }
 ]

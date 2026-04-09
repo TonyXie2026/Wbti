@@ -41,11 +41,26 @@ function renderLanding(state) {
   return `
     <main class="screen screen-centered">
       <section class="landing-shell" aria-label="WBTI（Web Behavior Type Indicator）">
-        <h1 class="landing-title">测测你在网上是什么东西</h1>
+        <h1 class="landing-title">你在网上<br />是什么成分</h1>
         <p class="landing-slogan">你不是在上网，你是在被识别</p>
-        <button class="button button-primary button-large landing-cta" data-action="start-quiz">
-          开始被识别
-        </button>
+        ${
+          state.savedResult
+            ? `
+              <div class="landing-actions">
+                <button class="button button-primary button-large landing-cta" data-action="start-quiz">
+                  开始被识别
+                </button>
+                <button class="button button-ghost button-large" data-action="view-last-result">
+                  查看上次结果
+                </button>
+              </div>
+            `
+            : `
+              <button class="button button-primary button-large landing-cta" data-action="start-quiz">
+                开始被识别
+              </button>
+            `
+        }
       </section>
     </main>
   `;
@@ -132,10 +147,6 @@ function renderResult(state) {
                 data-fallback="/assets/placeholder-character.png"
               />
             </div>
-
-            <button class="button button-primary button-large" data-action="copy-result">
-              ${escapeHtml(state.copyButtonText)}
-            </button>
           </article>
         </div>
       </section>

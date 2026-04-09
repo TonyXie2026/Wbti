@@ -206,15 +206,17 @@ img {
   font-size: clamp(3.6rem, 10vw, 6.8rem);
   line-height: 0.98;
   letter-spacing: -0.03em;
-  max-width: 8ch;
+  max-width: none;
+  white-space: nowrap;
 }
 
 .landing-slogan {
   margin: 20px auto 0;
-  max-width: 16ch;
+  max-width: none;
   color: var(--muted);
   font-size: clamp(1.02rem, 2.3vw, 1.2rem);
   line-height: 1.7;
+  white-space: nowrap;
 }
 
 .landing-actions,
@@ -227,6 +229,10 @@ img {
 
 .landing-actions {
   margin-top: 34px;
+}
+
+.landing-actions .landing-cta {
+  margin-top: 0;
 }
 
 .landing-cta {
